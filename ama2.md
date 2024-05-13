@@ -51,4 +51,12 @@ Solution : Accessing the variable before its declaration will result in a Refere
 
 ### Question11: What is an event listener in JS?
 
-Solution: 
+Solution: In JavaScript, an event listener is a mechanism to handle events that occur in a web page. Events can be user actions like mouse clicks, key presses, or system-generated events like page loading, resizing, etc. Event listeners "listen" for these events and execute a callback function when the event occurs.
+
+Here's a breakdown of how event listeners work:
+
+- Event Registration: You select an HTML element(s) on which you want to listen for events. This can be done using methods like getElementById, querySelector, or by accessing elements directly.
+
+- Event Binding: You attach an event listener to the selected element(s) using methods like addEventListener. This method takes the event type (such as 'click', 'mouseover', 'keydown', etc.) and a callback function as arguments.
+
+- Event Handling: When the specified event occurs on the selected element(s), the callback function associated with the event listener is executed. This function can perform any action you define, like modifying the DOM, fetching data from a server, or updating variables.
